@@ -4,7 +4,6 @@ import os
 import numpy as np
 import torch
 import cv2
-import json
 import random
 from torch.utils.data import Dataset
 from torchvision.transforms import functional as F
@@ -12,7 +11,7 @@ from torchvision import transforms
 from scipy.ndimage import label
 import scipy.ndimage
 
-from projects.image.SDMatte.sdmatte_config import get_bg_20k_path
+
 
 cv2.setNumThreads(1)
 
