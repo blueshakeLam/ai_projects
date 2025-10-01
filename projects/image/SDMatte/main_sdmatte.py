@@ -14,10 +14,9 @@ from detectron2.checkpoint import DetectionCheckpointer
 from detectron2.config import LazyConfig, instantiate
 import warnings
 
-
-
-from projects.image.SDMatte.sdmatte_config import *
 from load_image import LoadImage
+from sdmatte_config import *
+
 warnings.filterwarnings("ignore")
 
 def load_model(config_dir, model_dir):
