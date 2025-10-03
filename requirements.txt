@@ -44,3 +44,11 @@ einx
 easydict
 cached_property==2.0.1
 scikit-image
+
+#hunyuan3d-omni
+trimesh
+pymeshlab==2023.12.post1
+timm
+torchdiffeq
+#birefnet
+kornia
